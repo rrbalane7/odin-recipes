@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.recipe-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top:80px;
+    width: 1200px;
+    position: relative;
+}
+
+.recipe-list a{
+    color:#000;
+    font: italic 20px Poppins;
+    display: inline;
+    text-decoration: none;
+    padding: 0;
+}
+
+.recipe-list a:hover{
+    text-decoration: underline;
+    background-color: rgb(234, 205, 191);
+}
+
+body{
+    width: 1200px;
+    height: 900px;
+    margin:0 auto;
+    background-color: #f5f2d7;
+    font-family: Poppins;
+    
+}
+
+.logo{
+    background: no-repeat center/contain url("Assets/odin-logo.JPG");
+    width:250px;
+    height: 200px;
+    position: relative;
+    margin: 150px auto 20px auto;
+    border-radius: 10px;
+}
+
+footer{
+    /* position: relative; */
+    /* width:100%; */
+    /* bottom:0; */
+    /* height: 3vh; */
+    text-align: center;
+    /* right:0;
+    left: 0; */
+}
+
+section{
+    min-height: 97vh;
+}
+
+h1{
+    font: normal 26px Poppins;
+    text-align:  center;
+}
+
+img{
+    width:600px;
+    height: auto;
+    margin: 0 300px 0 300px;
+}
+
+.container-nav{
+    margin-top: 20px;
+}
+.Home-nav{
+    text-decoration: none;
+    color:#fff;
+    padding:10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #33339f;
+    position: fixed;
+}
+
+
+
+
+
+
+.Home-nav:hover,
+.Home-nav:active{
+    border-radius: 10px;
+    background-color: #c4ecc4;
+    text-decoration: underline;
+    color:black
+}
+
+.Home-nav:active{
+    box-shadow: 0 5px #666;
+}
+
+
+
+
+
